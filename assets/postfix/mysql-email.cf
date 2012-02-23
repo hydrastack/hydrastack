@@ -1,0 +1,5 @@
+user = hydra
+password = hydrastack
+dbname = mail
+query = SELECT email FROM users WHERE email='%s'
+hosts = 127.0.0.1
